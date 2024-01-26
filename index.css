@@ -7,7 +7,6 @@
 body{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .container-pr{
@@ -24,7 +23,7 @@ body{
     /* background-color: green; */
     justify-content: space-between;
 }
-#icon{
+.icon{
     display: inline-block;
     background-color: black;
     color: white;
@@ -38,23 +37,25 @@ body{
 }
 .Introduce{
     display: flex;
-    align-items: center;
+    width: 1140px;
+    height: auto;
 }
 .box{
     display: inline-block;
-    width: auto;
-    height: auto;
     margin-right: 10px;
+    /* background-color: aqua; */
 }
 .box strong{
     font-size: 370%;
 }
-
+.flash{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
 .box-child{
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 10%;
 }
 .box-child h1{
     color: red;
@@ -63,21 +64,22 @@ body{
 
 .title{
     display: inline-block;
-    width: auto;
     font-size: large;
     border-bottom: 2px solid red;
     margin-top: 5%;
     margin-bottom: 20px;
+    background-color: aqua;
 }
 .lorem{
+    display: inline;
     font-size: large;
+    /* background-color: red; */
 }
 
 .click{
-    display: block;
-    margin: 0 auto;
-    /* width: 300px; */
-    background-color: white;
+    display: inline-block;
+    /* margin: 0 auto; */
+    background-color: lavender  ;
     border: 2px solid red;
     border-radius: 30px;
     padding: 20px;
@@ -97,6 +99,7 @@ body{
     margin-right: 20px;
 }
 .row button{
+    display: inline-block;
     background-color: white;
     font-size: large;
     padding: 15px;
