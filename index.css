@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container-pr{
+    display: flex;
+    width: 1140px;
+    height: auto;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.Stick{
+    display: flex;
+    width: 1140px;
+    height: auto;
+    /* background-color: green; */
+    justify-content: space-between;
+}
+#icon{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 17px;
+}
+.JASON{
+    display: inline-block;
+    margin-left: 5px;
+}
+.Introduce{
+    display: flex;
+    align-items: center;
+}
+.box{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+.box strong{
+    font-size: 370%;
+}
+
+.box-child{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10%;
+}
+.box-child h1{
+    color: red;
+    font-size: 300%;
+}
+
+.title{
+    display: inline-block;
+    width: auto;
+    font-size: large;
+    border-bottom: 2px solid red;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.lorem{
+    font-size: large;
+}
+
+.click{
+    display: block;
+    margin: 0 auto;
+    /* width: 300px; */
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: 2px bold;
+    color: red;    
+}
+.skill{
+    display: block;
+    width: 1140px;
+    height: auto;
+    /* background-color: aqua; */
+}
+.both{
+    display: inline-block;
+}
+.row button{
+    background-color: white;
+    font-size: large;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+
+
+
