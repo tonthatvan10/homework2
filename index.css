@@ -9,11 +9,12 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 .container-pr{
     display: flex;
-    width: 1140px;
+    width: 1295px;
     height: auto;
     /* background-color: whitesmoke; */
     flex-direction: column;
@@ -25,7 +26,7 @@ body{
     z-index: 1;
     top: 0px;
     display: flex;
-    width: 1295px;
+    width: 1400px;
     height: 120px;
     background-color: white;
     /* background-color: green; */
@@ -42,8 +43,9 @@ body{
     color: white;
     width: 50px;
     height: 50px;
-    padding: 17px;
+    padding: 14px 15px;
     border-radius: 10%;
+    font-size: x-large;
 }
 .right-box{
     display: flex;
@@ -53,7 +55,7 @@ body{
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: #F26464;
     color: white;
     border-radius: 50%;
     font-size: larger;
@@ -67,16 +69,26 @@ body{
 }
 .Introduce{
     display: flex;
-    width: 1140px;
+    width: 1295px;
     height: auto;
 }
 .box{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 100px;
     /* background-color: aqua; */
 }
+.box>p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
 .box strong{
-    font-size: 400%;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
 }
 .flash{
     display: flex;
@@ -88,7 +100,7 @@ body{
     margin-right: 100px;
 }
 .box-child h1{
-    color: red;
+    color: #F26464;
     font-size: 300%;
 }
 .box p{
@@ -97,33 +109,40 @@ body{
 .title{
     display: inline-block;
     font-size: large;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid #F26464;
     margin-top: 5%;
-    margin-bottom: 20px;
-    font-weight: 800;
+    padding-bottom: 7px;
+    margin-bottom: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
     /* background-color: aqua; */
 }
 .lorem{
-    display: inline;
-    font-size: x-large;
-    /* background-color: red; */
+    color: #373737;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 60px;
 }
 
+.button-click{
+    display: flex;
+    justify-content: center;
+}
 .click{
     display: inline-block;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     background-color: white  ;
-    border: 2px solid red;
+    border: 2px solid #F26464;
     border-radius: 30px;
     padding: 20px;
     margin-top: 60px;
     margin-bottom: 80px;
     font-weight: 2px bold;
-    color: red;   
+    color: #F26464;   
 }
 .skill{
     display: flex;
-    width: 1140px;
     height: auto;
     /* background-color: aqua; */
     /* margin-left: 10px; */
@@ -137,7 +156,7 @@ body{
     display: inline-block;
     background-color: white;
     font-size: large;
-    padding: 15px;
+    padding: 20px;
     border: 2px solid black;
     border-radius: 30px;
     margin-bottom: 10px;
@@ -152,7 +171,7 @@ body{
 }
 .developer{
     display: inline-block;
-    width: 560px;
+    width: 600px;
     margin-left: 20px;
 }
 .developer h1{
@@ -160,19 +179,24 @@ body{
     margin-bottom: 10px;
 }
 .developer>p{
-    font-size: xx-large;
-    margin-bottom: 7px;
-    font-weight: lighter;
-}
-.developer strong{
-    font-size: x-large;
+    font-size: 24px;
+    font-weight: 300;
     margin-bottom: 10px;
 }
+.developer strong{
+    color: #373737;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
 .test{
-    font-size: x-large;
-    font-weight: lighter;
-    margin-top: 30px;
-    opacity: 0.8;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+ul{
+    margin-left: 30px;
 }
 
 .box-par{
@@ -189,7 +213,7 @@ body{
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .Str-word{
     font-size: xx-large;
@@ -231,6 +255,6 @@ body{
     background-color: black;
 }
 .click:hover{
-    background-color: red;
+    background-color: #F26464;
     color: white;
 }
