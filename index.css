@@ -122,7 +122,7 @@ body{
     color: red;   
 }
 .skill{
-    display: inline-block;
+    display: flex;
     width: 1140px;
     height: auto;
     /* background-color: aqua; */
